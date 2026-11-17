@@ -14,7 +14,7 @@ def read_credentials_from_excel(file_path):
 # pytest function with parameterization
 @pytest.mark.parametrize("username,password", read_credentials_from_excel("F:\\SeleniumPython\\python.xlsx"))
 def test_orangehrm_login(username,password):
-
+        ##
     #step 1 open chrom browser
     driver=webdriver.Chrome()
     #step 2 get web url
