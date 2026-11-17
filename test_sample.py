@@ -12,5 +12,6 @@ def test_sample_two():
 
 def test_sample_third():
     a=100
-    b=50
+    b=50s
     assert a<b
+    mm
